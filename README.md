@@ -1,5 +1,7 @@
 # TIA Portal MCP Server (v2.0)
 
+![TIA Portal MCP Server Header](assets/header.png)
+
 Bridge the gap between AI assistants and Industrial Automation. This MCP (Model Context Protocol) server allows AI tools like Gemini CLI, Claude Code, and Codex CLI to interact directly with Siemens TIA Portal via the Openness API.
 
 ## 🚀 Introduction
