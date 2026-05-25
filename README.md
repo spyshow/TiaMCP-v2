@@ -41,7 +41,7 @@ The first time an AI tool attempts to connect to a project, TIA Portal will show
 This server requires **.NET Framework 4.8**. The .NET 8.0 version is currently not supported due to Siemens assembly dependencies.
 
 ### 1. Download
-Download the `TiaMcpServer.exe` (and its dependencies) from the [GitHub Releases](https://github.com/YOUR_REPO/releases) page. Ensure you are using the **net48** version.
+Download the `TiaMcpServer.exe` (and its dependencies) from the [GitHub Releases](https://github.com/spyshow/TiaMCP-v2/releases) page. Ensure you are using the **net48** version.
 
 ### 2. Configure your AI CLI
 
