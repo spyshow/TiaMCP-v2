@@ -1,0 +1,27 @@
+{
+  "name": "tia-expert",
+  "description": "Expert guidance for TIA Portal automation and MCP tool usage.",
+  "triggers": [
+    "connect_tia",
+    "list_projects",
+    "open_project",
+    "close_project",
+    "get_project_info",
+    "list_devices",
+    "list_networks",
+    "list_plc_blocks",
+    "get_plc_tags",
+    "list_connected_hardware",
+    "add_hardware_device",
+    "import_plc_block",
+    "create_plc_tag_table",
+    "add_plc_tag",
+    "PLC",
+    "TIA Portal",
+    "Siemens",
+    "Profinet",
+    "Profibus",
+    "S7-1200",
+    "S7-1500"
+  ]
+}
