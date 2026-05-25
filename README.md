@@ -106,12 +106,22 @@ Once installed, you can use the following tools through your AI assistant.
 | `create_plc_tag_table` | Creates a new empty tag table. | "Create a new tag table called 'SafetyTags' in 'PLC_1'" |
 | `add_plc_tag` | Adds a single tag to a specific table. | "Add a Bool tag 'Start_Button' at I0.0 to 'Inputs' table in 'PLC_1'" |
 
-### Use Case Example (Gemini CLI)
-**User**: "Check the IP address of PLC_1 and tell me if there are any blocks with 'Safety' in their name."
-**AI**: 
-1. Calls `connect_tia()`
-2. Calls `list_networks()` to find IP.
-3. Calls `list_plc_blocks(device_name="PLC_1")` to find blocks.
+## 💬 Conversational Examples (Try these phrases!)
+
+You don't need to know the tool names. Just talk to your AI assistant naturally:
+
+*   **Project Exploration**: 
+    > "List all the TIA projects in my Documents folder and open the one named 'Station_A'."
+*   **Hardware Audit**:
+    > "What devices are currently in my project, and what are their Article Numbers?"
+*   **Network Mapping**:
+    > "Show me the IP addresses of all CPUs and tell me which IO devices are connected to them."
+*   **PLC Programming**:
+    > "Find the PLC named 'Main_Controller' and list all its Function Blocks. Are there any comments explaining what 'FB10' does?"
+*   **Tag Management**:
+    > "I need to add a new sensor. Create a tag called 'Level_Sensor' with type 'Real' at memory address 'MD20' in the 'Process_Tags' table."
+*   **Bulk Operations**:
+    > "Import all the XML files from 'C:\Exports\Library' into my PLC and then give me a summary of what was added."
 
 ---
 
