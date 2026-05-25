@@ -118,18 +118,18 @@ To ensure your AI assistant acts like a professional automation engineer, follow
 5.  **Activation**: The skill will now automatically trigger whenever you mention "PLC", "TIA Portal", or any of the MCP tools in a chat.
 
 ### 2. Claude Code (Anthropic)
-Claude Code uses project-specific memory or custom instructions.
-1.  Open the `SKILL.md` file from this repository.
-2.  Copy the entire text.
-3.  In your project root, create a file named `CLAUDE.md` (if it doesn't exist).
-4.  Paste the content at the top of `CLAUDE.md`.
-5.  **Activation**: Claude will read this file at the start of every session and follow the Senior Engineer persona and safety rules.
+1.  Navigate to your home directory: `cd ~`
+2.  Go to the skills folder: `cd .claude/skills` (Create it if it doesn't exist).
+3.  Create a new folder: `mkdir tia-expert`
+4.  Copy `SKILL.md` and `skill.json` into that new directory.
+5.  **Activation**: Type `/skills` in a Claude Code session to verify. The persona will trigger automatically on TIA-related keywords.
 
 ### 3. Codex CLI
-1.  Locate your Codex configuration folder (usually `~/.codex/skills/`).
-2.  Create a subdirectory named `tia-expert`.
-3.  Copy `SKILL.md` and `skill.json` into that folder.
-4.  **Activation**: Like Gemini, Codex will use the `triggers` in `skill.json` to automatically load the expert persona when relevant topics are discussed.
+1.  Navigate to your home directory: `cd ~`
+2.  Go to the skills folder: `cd .codex/skills` (Create it if it doesn't exist).
+3.  Create a new folder: `mkdir tia-expert`
+4.  Copy `SKILL.md` and `skill.json` into that folder.
+5.  **Activation**: Codex will automatically load the persona and safety rules based on the triggers in `skill.json`.
 
 ---
 
