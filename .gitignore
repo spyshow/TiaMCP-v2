@@ -1,0 +1,25 @@
+# .gitignore for TiaMCP V2
+
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio temporary files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+tia_attributes_debug.log
+server_debug.log
+
+# MCP specific
+gemini-conversation-*.json
+docs/maestro/state/
+docs/maestro/plans/
+
+# OS specific
+.DS_Store
+Thumbs.db
