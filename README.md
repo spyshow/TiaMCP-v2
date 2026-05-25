@@ -106,6 +106,16 @@ Once installed, you can use the following tools through your AI assistant.
 | `create_plc_tag_table` | Creates a new empty tag table. | "Create a new tag table called 'SafetyTags' in 'PLC_1'" |
 | `add_plc_tag` | Adds a single tag to a specific table. | "Add a Bool tag 'Start_Button' at I0.0 to 'Inputs' table in 'PLC_1'" |
 
+## 🧠 AI Expert Instructions (Skill)
+
+To ensure your AI assistant acts like a professional automation engineer (using proper naming conventions and safety rules), you can "install" the expert instructions included in this repo.
+
+### For Gemini CLI / Codex CLI
+The `skills/tia-expert/` folder is pre-configured with a `skill.json`. You can point your CLI to this folder to activate the professional persona.
+
+### For Claude Code
+Add the content of `skills/tia-expert/SKILL.md` to your project's custom instructions or `.claudecode/` configuration to ensure Claude follows industrial standards when using the MCP tools.
+
 ## 💬 Conversational Examples (Try these phrases!)
 
 You don't need to know the tool names. Just talk to your AI assistant naturally:
